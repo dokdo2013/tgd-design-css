@@ -1,0 +1,119 @@
+/* 메인 페이지 */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+html, body {
+    background: #E39FF6 !important;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#board-info-profile-img{
+    float: left !important;
+    border-radius: 15px;
+    border: 2px solid violet;
+    margin-right: 10px;
+}
+#board-info h1 {
+    border-bottom: 1px solid violet;
+}
+#board-info #board-info-bottom a {
+    border-right: 1px solid violet;
+}
+#board-info {
+    height: 80px;
+    padding: 1em;
+    margin-bottom: 10px;
+    background-color: #e39ff6;
+}
+#board-info > h1 > a {
+    font-weight: 700;
+    color: purple;
+    font-size: 21px;
+}
+#main .menu-wrapper {
+    border-right: 0 !important;
+}
+header .row>div:nth-child(1)>a {
+  display: block;
+  width: 145px;
+  height: 50px;
+  background: url(https://upload.tgd.kr/20201229/ce305ae9ffaa49902e04d7cf00fff6ea.png) no-repeat;
+  background-size: auto 50px;
+}
+header .row>div:nth-child(1)>a>img {
+  display: none;
+}
+header #header-bar>.row {
+    border-bottom: 0 !important;
+    border-right: 0 !important;
+    box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.2);
+    border-top: 4px solid rgba(128,0,128,0.8);
+}
+#main #main-content>div.frame {
+    border-right: 0 !important;
+    border-bottom: 0 !important;
+    border: 4px solid rgba(128,0,128,0.8) !important;
+    box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.2);
+}
+#main-menu > div.menu-wrapper{
+    border: 4px solid rgba(128,0,128,0.8) !important;
+    box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.2);
+}
+#main .menu-wrapper>.header {
+    background: violet;
+}
+#main .menu-wrapper .spacer {
+    background: violet;
+    display: block;
+    height: .2em;
+}
+#article-list {
+    background-color: white;
+    padding-top: 12px;
+}
+
+
+
+/* ARTICLE */
+#article-info {
+    background-color: white;
+}
+#article-content-wrapper{
+    background-color: white;
+}
+#article-reply-area{
+    background-color: white;
+}
+
+
+
+
+/* 드롭다운매뉴 효과 */
+
+.dropdown.open .dropdown-menu,
+.input-group-btn.open .dropdown-menu {
+	opacity: unset;
+	transform: unset;
+	border: 1px solid #000;
+	border-radius: 10px;
+	box-shadow: 0 2px 2px rgba(0,0,0,.3);
+}
+.dropdown .dropdown-menu,
+.input-group-btn .dropdown-menu {
+	display: block !important;
+	opacity: 0;
+	transform: scale(0);
+	transform-origin: top;
+	transition: all 0.3s cubic-bezier(0.2, 1.5, 0, 1);
+	padding: 8px 0 3px 0px;
+}
+.dropdown-menu>li>a {
+	transition: .1s;
+}
+.dropdown-menu>li>a:hover {
+	background: transparent;
+	transform: scaleX(1.04);
+	transition: .1s;
+}
+.label-default {
+    background-color: #000;
+}
