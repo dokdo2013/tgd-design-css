@@ -1,0 +1,97 @@
+/* 폰트 설정 */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR');
+body {
+letter-spacing: -0.05em !important;
+font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* 색깔 수정 */
+html, body {
+    width: 100% !important;
+    height: 100%;
+    background: #20ad9c;
+}
+#main .menu-wrapper>.header {
+    background: #fddf11;
+    color: #fff;
+    padding: 0.45em 1.4em 0.45em 1em;
+    font-weight: bold;
+}
+#article-list>.article-list-row:nth-of-type(2) {
+    border-top: 2px solid #fddf11;
+}
+header #header-bar>.row {
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    border-top: 5px solid #fddf11;
+    background: #fff;
+    border-bottom: 2px solid #ebeae8;
+    border-right: 2px solid #ebeae8;
+}
+header #header-bar #header-top-notice strong.notice-badge {
+    background: #fddf11;
+    padding: 4px 8px;
+    color: #fff;
+    font-weight: bold;
+}
+header #right-search-form>input[type=text] {
+    position: relative;
+    border: 3px solid #fddf11;
+    background: #fff;
+    font-size: 1.1em;
+    padding: 0.3em 0.5em;
+}
+header #right-search-form>#right-search-btn {
+    color: #fddf11;
+    background: transparent;
+    border: none;
+    font-size: 1.4em;
+}
+
+/* 커스텀 로고 */ 
+
+header .row>div:nth-child(1)>a {
+  display: block;
+  width: 200px;
+  height: 50px;
+  background: url(https://imageshack.com/i/pmUOc3AOp) no-repeat;
+  background-size: auto 50px;
+}
+
+header .row>div:nth-child(1)>a>img {
+  display: none;
+  filter: grayscale(100%);
+  opacity: 0.8;
+}
+
+#article-list #article-list-category {
+    background: #fff4a7;
+    border-top: 2px solid #fddf11;
+}
+#article-list #article-list-category>a {
+    display: inline-block;
+    padding: 11px 16px;
+    background: #fff4a7;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+#article-list #article-list-category > a.active, #article-list #article-list-category>a:hover {
+    background: #fddf11;
+}
+
+#article-content-wrapper>.header {
+    border-top: 2px solid #fddf11;
+    background: #fff4a7;
+    padding: 0.6em 0.8em;
+}
+
+/* 붕어빵 몇마리 판매중! */
+#board-info #viewers-area #viewers:before {
+    content: "붕어빵 ";
+    cursor: text;
+}
+#board-info #viewers-area #viewers:after {
+    content: "마리 판매중";
+    cursor: text;
+}
