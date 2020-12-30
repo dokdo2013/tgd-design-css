@@ -2,6 +2,7 @@
 tgd.kr CSS Design Sources
 
 ## site lists
+css file name is site id
 |site id|site address|
 |-|-|
 |kms00108|<https://tgd.kr/s/kms00108>|
