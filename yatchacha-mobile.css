@@ -1,0 +1,73 @@
+/* 기본 폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+body {
+    font-family: 'Poor Story', cursive;
+}
+#header-area > a:nth-child(3) > h1 {
+    background-image: url(https://user-images.githubusercontent.com/22076477/106602619-9d1c9180-65a0-11eb-9709-7c81f0d3f77e.png);
+    background-size: contain;
+    margin-top: 3px;
+}
+header {
+    background-color: #ffe077 !important;
+    border-bottom: 4px solid #b031f0 !important;
+}
+#header-search-link > i {
+    color: #b031f0 !important;
+    margin-top: 4px !important;
+}
+#header-bar-link > i {
+    color: #b031f0 !important;
+    margin-top: 6px !important;
+}
+#header-top-notice strong.notice-badge {
+    background-color: #ffe077 !important;
+    color: #b031f0 !important;
+}
+#article-list-menu>.btn.best {
+    border-color: #ffe077 !important;
+    color: #ffe077 !important;
+}
+#article-list-menu > a.btn.square.btn-primary.write {
+    background-color: #b031f0 !important;
+    color: #ffe077 !important;
+}
+#article-list-category {
+    background-color: rgba(255, 224, 119, 0.3) !important;
+}
+#article-list #article-list-category>a {
+    background: none !important;
+}
+#article-list #article-list-category>a.active, #article-list #article-list-category>a:hover {
+    background-color: #ffe077 !important;
+}
+#article-content-wrapper > div.vote-area > button.btn.btn-outline-primary.vote-btn {
+    border-color: #b031f0 !important;
+    color: #b031f0 !important;
+}
+#article-content-wrapper > div.vote-area > button.btn.btn-outline-primary.vote-btn:hover {
+    background-color: #b031f0 !important;
+    color: white !important;
+}
+#article-content-wrapper > div.vote-area > button.btn.btn-outline-success.vote-btn {
+    border-color: #ffd64d !important;
+    color: #ffd64d !important;
+}
+#article-content-wrapper > div.vote-area > button.btn.btn-outline-success.vote-btn:hover {
+    background-color: #ffd64d !important;
+    color: #b031f0 !important;
+}
+.fr-toolbar {
+    border-top: 5px solid #ffe077 !important;
+}
+#writeCommentBtn {
+    background-color: #ffe077 !important;
+    border: 1px solid #ffe077 !important;
+    color: #b031f0 !important;
+}
+#writeCommentBtn:hover, #writeCommentBtn:active {
+    background-color: #ffd64d !important;
+}
+#article-reply-area > div.header > h5, #lastc {
+    color: #b031f0 !important;
+}
