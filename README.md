@@ -8,3 +8,4 @@ css file name is site id
 |kms00108|<https://tgd.kr/s/kms00108>|
 |annchoi413|<https://tgd.kr/s/annchoi413>|
 |ej3479|<https://tgd.kr/s/ej3479>|
+|yatchacha|<https://tgd.kr/s/yatchacha>|
